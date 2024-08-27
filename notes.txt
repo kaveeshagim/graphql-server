@@ -1,0 +1,25 @@
+tutorial: https://www.freecodecamp.org/news/a-beginners-guide-to-graphql-86f849ce1bec/
+
+example queries :
+
+#to return all the users
+query {
+  users {
+    id
+    name
+    email
+    age
+  }
+}
+
+# to return one specific user
+query {
+  user(id: 1) {
+    id
+    name
+    email
+    age
+  }
+}
+
+#Mutations : to update the data (CREATE, DELETE, UPDATE)
